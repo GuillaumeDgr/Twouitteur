@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "155143782544",
+    "firebase_url": "https://twouitteur.firebaseio.com",
+    "project_id": "twouitteur",
+    "storage_bucket": "twouitteur.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:155143782544:android:2e79ee593612d842",
+        "android_client_info": {
+          "package_name": "fr.wcs.twouitteur"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "155143782544-l0nped8q995vrvfu6bg5gkgaami0ktre.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "fr.wcs.twouitteur",
+            "certificate_hash": "cf3000441af4b4f0e0704b7991af35e273d680ca"
+          }
+        },
+        {
+          "client_id": "155143782544-fdd224rlinkknagncc06vpqabva8bg1i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyyMQ5JKPy2a7zUi2JjkTroQF8gDGr_vY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "155143782544-fdd224rlinkknagncc06vpqabva8bg1i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
