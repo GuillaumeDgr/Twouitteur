@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context="fr.wcs.twouitteur.CreateTweetActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/imageAvatar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/twitter_avatar"
+            android:padding="8dp"
+            android:clickable="true"
+            android:focusable="true"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/buttonQuit"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="end"
+            android:adjustViewBounds="false"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="8dp"
+            android:src="@drawable/twitter_delete" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/tweet_text"
+        android:maxLength="140"
+        android:textColor="@color/colorVerifiedBlue"
+        android:textColorHint="@color/colorVerifiedBlue"
+        android:textStyle="italic"
+        android:backgroundTint="@color/colorVerifiedBlue"
+        android:layout_width="match_parent"
+        android:layout_height="300sp"
+        android:fontFamily="sans-serif"
+        android:hint="@string/quoi_de_neuf"
+        android:gravity="start" />
+
+    <Button
+        style="@style/ButtonStyle"
+        android:id="@+id/button_twouitter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:background="@color/colorVerifiedBlue"
+        android:textColor="@color/colorWhite"
+        android:text="@string/twouitter" />
+
+</LinearLayout>

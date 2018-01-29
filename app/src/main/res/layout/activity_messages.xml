@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="fr.wcs.twouitteur.MainActivity">
+    tools:context="fr.wcs.twouitteur.MessagesActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -31,15 +31,9 @@
                 android:clickable="true"
                 android:focusable="true"/>
 
-            <ImageView
-                android:id="@+id/buttonHome"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:src="@drawable/twitter_bird"
-                android:layout_gravity="center"
-                android:padding="5dp"
-                android:clickable="true"
-                android:focusable="true"/>
+            <TextView
+                style="@style/ActivityTitle"
+                android:text="@string/messagesTitle" />
 
             <ImageView
                 android:id="@+id/buttonWrite"
@@ -48,17 +42,6 @@
                 android:src="@drawable/twitter_write"
                 android:layout_gravity="end"
                 android:padding="5dp"
-                android:clickable="true"
-                android:focusable="true"/>
-
-            <ImageView
-                android:id="@+id/buttonSearch"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:src="@drawable/twitter_search"
-                android:layout_gravity="end"
-                android:padding="5dp"
-                android:layout_marginRight="10dp"
                 android:clickable="true"
                 android:focusable="true"/>
 
@@ -73,13 +56,22 @@
         android:layout_weight="1"
         android:padding="10sp">
 
-        <ListView
-            android:id="@+id/listView"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:divider="@color/colorVerifiedBlue"
-            android:dividerHeight="1dp"
-            android:padding="5sp"/>
+        <!--<ListView-->
+            <!--android:id="@+id/listViewNotifications"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:divider="@color/colorVerifiedBlue"-->
+            <!--android:dividerHeight="1dp"-->
+            <!--android:padding="5sp"/>-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pas_de_messages_pour_le_moment"
+            android:id="@+id/empty"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/colorVerifiedBlue"/>
 
     </LinearLayout>
 
@@ -91,3 +83,5 @@
         app:menu="@menu/bottombarnavigation"/>
 
 </LinearLayout>
+
+

@@ -1,3 +1,57 @@
 <resources>
     <string name="app_name">Twouitteur</string>
+
+    // Bottom Bar
+    <string name="home">Acceuil</string>
+    <string name="notifications">Notifications</string>
+    <string name="messages">Messages</string>
+    <string name="me">Moi</string>
+    <string name="quoi_de_neuf">Quoi de neuf ... ?</string>
+    <string name="twouitter">Twouitter</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="connexion">Connexion</string>
+    <string name="mot_de_passe">Mot de passe</string>
+    <string name="pseudo">Nom d\'utilisateur</string>
+    <string name="loading">En chargement</string>
+    <string name="auth_failed">Authentication failed</string>
+    <string name="emailpassword_status_fmt">Email User: %1$s (verified: %2$b)</string>
+    <string name="firebase_status_fmt">Firebase User: %s</string>
+    <string name="signed_out">Signed Out</string>
+    <string name="desc_firebase_lockup">Firebase logo and name</string>
+    <string name="emailpassword_title_text">Email and Password</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_account">Create Account</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="verify_email">Verify Email</string>
+    <string name="error_fill">Tu dois remplir tous les champs demandés</string>
+    <string name="error_password">Pseudo déjà utilisé ou mot de passe erroné</string>
+    <string name="created_user">Bienvenue</string>
+    <string name="bienvenue_sur_twouitteur">Bienvenue sur Twouitteur</string>
+    <string name="notificationsTitle">Notifications</string>
+    <string name="pas_de_notifications_pour_le_moment">Pas de notifications pour le moment !</string>
+    <string name="messagesTitle">Messages</string>
+    <string name="profil">Profil</string>
+    <string name="pas_de_messages_pour_le_moment">Pas de messages pour le moment !</string>
+    <string name="erreur_photo">Une erreur est survenue lors de l\'upload de la photo</string>
+    <string name="upload_photo">Votre photo a bien été uploadée</string>
+    <string name="upload_photo_pb">Votre photo n\'a pas été uploadée</string>
+    <string name="annuler_photo">Personnalisation de la photo annulée</string>
+    <string name="searchtwitter">Rechercher sur Twouitteur</string>
+
+
 </resources>

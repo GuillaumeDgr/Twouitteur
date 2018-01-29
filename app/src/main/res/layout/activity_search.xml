@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="fr.wcs.twouitteur.MainActivity">
+    tools:context="fr.wcs.twouitteur.SearchActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -22,34 +22,27 @@
             app:popupTheme="@style/AppTheme.PopupOverlay">
 
             <ImageView
-                android:id="@+id/buttonAddFriend"
+                android:id="@+id/buttonBack"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:src="@drawable/twitter_add"
+                android:src="@drawable/twitter_arrow"
                 android:layout_gravity="start"
                 android:padding="5dp"
+                android:rotation="90"
                 android:clickable="true"
                 android:focusable="true"/>
 
-            <ImageView
-                android:id="@+id/buttonHome"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:src="@drawable/twitter_bird"
+            <AutoCompleteTextView
+                style="@style/searchbar"
+                android:gravity="center"
                 android:layout_gravity="center"
-                android:padding="5dp"
-                android:clickable="true"
-                android:focusable="true"/>
-
-            <ImageView
-                android:id="@+id/buttonWrite"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:src="@drawable/twitter_write"
-                android:layout_gravity="end"
-                android:padding="5dp"
-                android:clickable="true"
-                android:focusable="true"/>
+                android:id="@+id/autoCompleteSearchUsers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:completionHintView="@layout/search_box"
+                android:completionThreshold="1"
+                android:hint="@string/searchtwitter"
+                android:singleLine="true"/>
 
             <ImageView
                 android:id="@+id/buttonSearch"
@@ -58,7 +51,6 @@
                 android:src="@drawable/twitter_search"
                 android:layout_gravity="end"
                 android:padding="5dp"
-                android:layout_marginRight="10dp"
                 android:clickable="true"
                 android:focusable="true"/>
 
@@ -74,7 +66,7 @@
         android:padding="10sp">
 
         <ListView
-            android:id="@+id/listView"
+            android:id="@+id/myList"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:divider="@color/colorVerifiedBlue"
@@ -91,3 +83,4 @@
         app:menu="@menu/bottombarnavigation"/>
 
 </LinearLayout>
+
