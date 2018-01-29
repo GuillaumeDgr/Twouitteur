@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/twitterhome"
+        android:title="@string/home"
+        android:fontFamily="sans-serif"/>
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/twitternotifications"
+        android:title="@string/notifications"
+        android:fontFamily="sans-serif"/>
+    <item
+        android:id="@+id/navigation_messages"
+        android:icon="@drawable/twittermessages"
+        android:title="@string/messages"
+        android:fontFamily="sans-serif"/>
+    <item
+        android:id="@+id/navigation_me"
+        android:icon="@drawable/twitterme"
+        android:title="@string/me"
+        android:fontFamily="sans-serif"/>
+</menu>

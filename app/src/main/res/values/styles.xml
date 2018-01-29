@@ -8,4 +8,93 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@android:color/white</item>
+    </style>
+
+    <style name="MyDialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="BottomBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:background">@color/colorWhite</item>
+        <item name="android:colorActivatedHighlight">@color/colorVerifiedBlue</item>
+        <item name="android:color">@color/colorVerifiedBlue</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/colorVerifiedBlue</item>
+        <item name="android:color">@color/colorWhite</item>
+    </style>
+
+    <style name="ButtonStyleConnexion">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/colorWhite</item>
+        <item name="android:color">@color/colorVerifiedBlue</item>
+        <item name="android:textColor">@color/colorVerifiedBlue</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="connexion_text">
+        <item name="android:padding">5dp</item>
+        <item name="android:background">@drawable/connexion_text_shape</item>
+        <item name="android:textColor">@color/colorVerifiedBlue</item>
+        <item name="android:textColorHint">@color/colorVerifiedBlue</item>
+        <item name="android:maxLength">15</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="TitleConnexion">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="ActivityTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorVerifiedBlue</item>
+    </style>
+
+    <style name="searchbar">
+        <item name="android:padding">5dp</item>
+        <item name="android:background">@drawable/searchbar_text_shape</item>
+        <item name="android:textColor">@color/colorVerifiedBlue</item>
+        <item name="android:textColorHint">@color/colorVerifiedBlue</item>
+        <item name="android:maxLength">15</item>
+        <item name="android:gravity">center</item>
+    </style>
+
 </resources>

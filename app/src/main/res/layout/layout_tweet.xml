@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <ImageButton
+        android:id="@+id/imageItem"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:clickable="false"
+        android:scaleType="fitCenter"
+        android:src="@drawable/twitter_avatar"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/myTweetUserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif"
+                android:textSize="20sp"
+                tool:text="Tweet user name"/>
+
+            <TextView
+                android:id="@+id/myTweetDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tool:text="Tweet date"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="sans-serif"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/myTweet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:fontFamily="sans-serif"
+            android:textSize="20sp"
+            tool:text="Texte du tweet ici"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <ImageView
+                android:id="@+id/buttonComment"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/twitter_comment"
+                android:layout_marginRight="60dp"
+                android:clickable="true"
+                android:focusable="true"/>
+
+            <ImageView
+                android:id="@+id/buttonRetweet"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/twitter_retweet"
+                android:layout_marginRight="60dp"
+                android:clickable="true"
+                android:focusable="true"/>
+
+            <ImageView
+                android:id="@+id/buttonLike"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/twitter_heart"
+                android:layout_marginRight="60dp"
+                android:clickable="true"
+                android:focusable="true"/>
+
+            <ImageView
+                android:id="@+id/buttonChat"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/twittermessages"
+                android:clickable="true"
+                android:focusable="true"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/tweetArrow"
+        android:padding="10dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:clickable="false"
+        android:background="@drawable/twitter_arrow"/>
+
+</LinearLayout>
